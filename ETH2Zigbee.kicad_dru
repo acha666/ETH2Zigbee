@@ -1,0 +1,8 @@
+(version 1)
+(rule "焊盘到布线的间距"
+    (constraint clearance (min 0.32mm))
+    (condition "0mm==1mm && A.Type =='Track' && B.Type =='Track'"))
+
+(rule "GND-GNDPWR"
+    (constraint clearance (min 0.32mm))
+    (condition "A.NetName =='GND' && B.NetName =='GNDPWR'"))

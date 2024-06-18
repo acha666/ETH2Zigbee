@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ETH2Zigbee")(type "KiCad")(uri "${KIPRJMOD}/ETH2Zigbee.kicad_sym")(options "")(descr ""))
+)
